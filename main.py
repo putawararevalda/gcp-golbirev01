@@ -10,7 +10,7 @@ from tensorflow.image import resize
 
 from keras.preprocessing.image import ImageDataGenerator, smart_resize
 
-MODEL = load_model("golbirev_vanilla_with_tpu_15ep_RMS_LR10e-3.hdf5")
+MODEL = load_model("golbirev_vanilla_with_tpu_50ep_ADAM_LR10e-3.hdf5")
 CLASS_NAMES = ["NOT_OK","OK"]
 GOOD_EXTS = ['jpg', 'png', 'bmp','tiff','jpeg', 'gif']
 
